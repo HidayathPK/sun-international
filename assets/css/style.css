@@ -1588,7 +1588,7 @@ font-weight: 700;
 }
 .navsel {
     margin-top: 25px;
-    margin-left: 300px;
+    margin-left: 350px;
     font-style: bold;
 }
 .navsel-1 {
@@ -1596,9 +1596,12 @@ font-weight: 700;
     margin-left: 400px;
     font-style: bold;
 
+
 }
 .navsel-1 a {
     color: white;
+    margin-left: 80px;
+
 }
 
 .navsel-2 {
@@ -1609,6 +1612,8 @@ font-weight: 700;
 }
 .navsel-2 a {
     color: white;
+    margin-left: 100px;
+
 }
 .navsel-3 {
     margin-top: -21px;
@@ -1618,6 +1623,8 @@ font-weight: 700;
 }
 .navsel-3 a {
     color: white;
+    margin-left: 130px;
+
 }
 .navsel-4 {
     margin-top: -21px;
@@ -1627,6 +1634,7 @@ font-weight: 700;
 }
 .navsel-4 a {
     color: white;
+    margin-left: 160px;
 }
 .arrow {
     border: solid rgb(248, 244, 244);
@@ -1673,7 +1681,7 @@ font-weight: 700;
     float: right;
     margin-top: 25px;
     margin-left: 60px;
-    margin-right: -40PX;
+    margin-right: -240PX;
     border-radius: 20px;
     width: 160px;
   }
@@ -2066,6 +2074,12 @@ padding-bottom: 20px;
     margin-left: -120px;
     margin-top: -120px;
 }
+.position-relative-1 {
+    width: 220vh;
+    height: 350px;
+    margin-left: -120px;
+    margin-top: -120px;
+}
 .video-wrapper {
     /* Telling our absolute positioned video to 
     be relative to this element */
@@ -2121,6 +2135,12 @@ padding-bottom: 20px;
     margin-left: -300px;
     height: 600px;
 }
+.position-relative-1 {
+    width: 190vh;
+    margin-left: -430px;
+    margin-bottom: 100px;
+    height: 600px;
+}
 .head-4 {
     margin-left: -400px;
 
@@ -2147,44 +2167,7 @@ padding-bottom: 20px;
     margin-left: -270px;
 }
 }
-@media screen and (min-width: 1380px) and (max-width:1508px) {
-    .video-wrapper {
-        width: 1600px;
-        height: 700px;
-        margin-top: -110px;
-    }
-    .single-travel-boxes {
-        margin-top: -50px;
-    }
-    .position-relative {
-        width: 135vh;
-        margin-left: -200px;
-    }
-    .head-4 {
-        margin-left: -400px;
-    
-    }
-    .head-5 {
-        margin-left: -400px;
-    }
-    .imgprfl {
-        margin-left: 650px;
-    }
-    .head-2 {
-        margin-left: 100px;
-    }
-    .head-3 {
-        margin-left: 80px;
-    }
-    .container-card-8 {
-        width: 135vh;
-        height: 600px;
-    }
-    .container-card-9 {
-        width: 135vh;
-        margin-left: -180px;
-    }
-}
+
 @media screen and (min-width: 1741px) and (max-width:1900px) {
     .video-wrapper {
         width: 1900px;
@@ -2197,6 +2180,12 @@ padding-bottom: 20px;
     .position-relative {
         width: 170vh;
         margin-left: -370px;
+        height: 600px;
+    }
+    .position-relative-1 {
+        width: 200vh;
+        margin-left: -430px;
+        margin-bottom: 100px;
         height: 600px;
     }
     .head {
@@ -2247,7 +2236,13 @@ padding-bottom: 20px;
         margin-top: -50px;
     }
     .position-relative {
-        width: 177vh;
+        width: 190vh;
+        margin-left: -430px;
+        margin-bottom: 100px;
+        height: 600px;
+    }
+    .position-relative-1 {
+        width: 190vh;
         margin-left: -430px;
         margin-bottom: 100px;
         height: 600px;
@@ -2259,11 +2254,11 @@ padding-bottom: 20px;
         margin-top: -20px;
     }
     .head-4 {
-        margin-left: -400px;
+        margin-left: -300px;
     
     }
     .head-5 {
-        margin-left: -400px;
+        margin-left: -300px;
     }
     .imgprfl {
         margin-left: 650px;
@@ -2275,13 +2270,13 @@ padding-bottom: 20px;
         margin-left: 180px;
     }
     .container-card-8 {
-        width: 177vh;
+        width: 185vh;
         height: 600px;
         margin-top: 20px;
         margin-left: -30px;
     }
     .container-card-9 {
-        width: 175vh;
+        width: 187vh;
         margin-left: -420px;
     }
     .container-card-7 {
@@ -2294,6 +2289,7 @@ padding-bottom: 20px;
         margin-top: 40px;
     }
 }
+
 @media screen and (min-width: 1380px) and (max-width:1508px) {
     .video-wrapper {
         width: 1600px;
@@ -2304,8 +2300,14 @@ padding-bottom: 20px;
         margin-top: -50px;
     }
     .position-relative {
-        width: 135vh;
+        width: 50vh;
         margin-left: -200px;
+    }
+    .position-relative-1 {
+        width: 70vh;
+        margin-left: -430px;
+        margin-bottom: 0px;
+        height: 600px;
     }
     .head-4 {
         margin-left: -400px;
@@ -2331,7 +2333,8 @@ padding-bottom: 20px;
         width: 135vh;
         margin-left: -180px;
     }
-}@media screen and (min-width: 1031px) and (max-width:1199px) {
+}
+@media screen and (min-width: 1031px) and (max-width:1199px) {
     .video-wrapper {
         width:1200px;
         height: 700px;
@@ -2344,6 +2347,12 @@ padding-bottom: 20px;
     .position-relative {
         width: 255vh;
         margin-left: -200px;
+    }
+    .position-relative-1 {
+        width: 150vh;
+        margin-left: -430px;
+        margin-bottom: 100px;
+        height: 600px;
     }
     .head-4 {
         margin-left: -400px;
@@ -2399,19 +2408,26 @@ margin-left: -250px;
     margin-left: 100px;
    }
 }
-@media screen and (max-width:480px) {
+@media screen and (min-width:200px) and (max-width:480px) {
     .video-wrapper {
         width: 1800px;
         height: 800px;
         margin-top: -100px;
-        margin-left: -130px;
+        margin-left: -280px;
     }
     .single-travel-boxes {
         margin-top: -50px;
     }
     .position-relative {
-        width: 135vh;
+        width: 1200px;
+        height: 400px;
         margin-left: -200px;
+    }
+    .position-relative-1 {
+        width: 160vh;
+        margin-left: -430px;
+        margin-bottom: 100px;
+        height: 600px;
     }
     .head-4 {
         margin-left: -400px;
@@ -2441,72 +2457,6 @@ margin-left: -250px;
         margin-left: 600px;
     }
 }
-/* @media screen and (min-width: 1200px) and (max-width: 1508px) {
-    .video-wrapper {
-        width: 1250px;
-        height: 900px;
-        margin-top: -110px;
-    }
-    .about-us-txt {
-        margin-top: -500px;
-    }
-    .single-travel-boxes {
-        margin-top: -50px;
-    }
-    .position-relative {
-        width: 165vh;
-        height: 700px;
-        margin-left: -200px;
-        margin-top: 100px;
-    }
-    .head {
-        margin-left: 100px;
-
-    }
-    .head-0 {
-        margin-left: 100px;
-    }
-    .head-1 {
-        margin-left: 100px;
-    }
-    .head-4 {
-        margin-left: -250px;
-    
-    }
-    .head-5 {
-        margin-left: -250px;
-    }
-    .imgprfl {
-        margin-left: 500px;
-    }
-    .head-2 {
-        margin-left: 0px;
-    }
-    .head-3 {
-        margin-left: 50px;
-    }
-    .container-card-8 {
-        width: 155vh;
-        height: 600px;
-        margin-top: -50px;
-    }
-    .container-card-9 {
-        width: 165vh;
-        margin-left: -180px;
-    }
-    .text-center {
-        margin-top: -100px;
-        margin-bottom: -60px;
-    }
-    .headname {
-        margin-top: 0px;
-
-    }
-    .headname-1 {
-        margin-top: 0px;
-        margin-bottom: 100px;
-    }
-} */
 
   
 
